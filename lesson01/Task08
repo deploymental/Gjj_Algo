@@ -1,0 +1,2 @@
+When you are extension type bits are filled in with the previous contents of the top bit.
+This is serves to preserve the sign of negative numbers .

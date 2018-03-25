@@ -1,0 +1,57 @@
+arrayList.add(1000000) 277
+
+linkedList.add(1000000) 248
+
+
+
+arrayList.add(0, 100000) 242
+
+linkedList.add(0, 100000) 15
+
+
+
+arrayList.add(arrayList.size() >> 1, 100000) 678
+
+linkedList.add(linkedList.size() >> 1, 100000) 19878
+
+
+
+arrayList.add(arrayList.size() - 1, i - 1) 6954
+
+linkedList.add(linkedList.size() - 1, i - 1) 3545
+
+
+
+arrayList.remove(0) 1442
+
+linkedList.remove(0) 7
+
+
+
+arrayList.remove(arrayList.size() >> 1) 632
+
+linkedList.remove(linkedList.size() >> 1) 5585
+
+
+
+arrayList.remove(arrayList.size() - 1) 14
+
+linkedList.remove(linkedList.size() - 1) 23
+
+
+
+arrayList.remove(obj) BooleanRemoveFromFirstPosition 356560
+
+linkedList.remove(obj) BooleanRemoveFromFirstPosition 16
+
+
+
+arrayList.remove(obj) BooleanRemoveFromMiddlePosition 4793
+
+linkedList.remove(obj) BooleanRemoveFromMiddlePosition 13456
+
+
+
+arrayList.remove(obj) BooleanRemoveFromLastPosition 635782
+
+linkedList.remove(obj) BooleanRemoveFromLastPosition 30

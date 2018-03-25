@@ -1,0 +1,44 @@
+doublyLinkedList.add(1000000) 2640
+
+linkedList.add(1000000) 2483
+
+
+
+doublyLinkedList.add(0, 100000) 2742
+
+linkedList.add(0, 100000) 2194
+
+
+
+doublyLinkedList.add(doublyLinkedList.size() >> 1, 100000) 2793
+
+linkedList.add(linkedList.size() >> 1, 100000) 2744
+
+
+doublyLinkedList.add(doublyLinkedList.size() - 1, i - 1) 5304
+
+linkedList.add(linkedList.size() - 1, i - 1) 4406
+
+
+
+doublyLinkedList.remove(0) 3267
+
+linkedList.remove(0) 3169
+
+
+
+doublyLinkedList.remove(doublyLinkedList.size() >> 1) 2391
+
+linkedList.remove(linkedList.size() >> 1) 2113
+
+
+
+doublyLinkedList.remove(doublyLinkedList.size() - 1) 4136
+
+linkedList.remove(linkedList.size() - 1) 4275
+
+
+
+doublyLinkedList.remove(obj) 4583
+
+linkedList.remove(obj) 4147

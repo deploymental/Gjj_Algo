@@ -1,0 +1,57 @@
+dynamicArray.add(1000000) 15145
+
+arrayList.add(1000000) 13257
+
+
+
+dynamicArray.add(0, 100000) 18766
+
+arrayList.add(0, 100000) 17784
+
+
+
+dynamicArray.add(dynamicArray.size() >> 1, 100000) 9306
+
+arrayList.add(arrayList.size() >> 1, 100000) 7820
+
+
+
+dynamicArray.add(dynamicArray.size() - 1, i - 1) 21371
+
+arrayList.add(arrayList.size() - 1, i - 1) 21606
+
+
+
+dynamicArray.remove(0) 16312
+
+arrayList.remove(0) 15393
+
+
+
+dynamicArray.remove(dynamicArray.size() >> 1) 7459
+
+arrayList.remove(arrayList.size() >> 1) 7796
+
+
+
+dynamicArray.remove(dynamicArray.size() - 1) 180
+
+arrayList.remove(arrayList.size() - 1) 200
+
+
+
+dynamicArray.remove(obj) 19650
+
+arrayList.remove(obj) 23111
+
+
+
+dynamicArray.remove(obj) 4519
+
+arrayList.remove(obj) 4594
+
+
+
+dynamicArray.remove(obj) 4121
+
+arrayList.remove(obj) 5228

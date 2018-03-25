@@ -1,0 +1,15 @@
+hashMap.put 2084
+
+associativeArray.add 2026
+
+
+
+hashMap.get(2000000) 2564
+
+associativeArray.get(2000000) 2295
+
+
+
+doublyLinkedList.remove(4000000) 2156
+
+linkedList.remove(4000000) 2009
